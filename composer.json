@@ -1,0 +1,17 @@
+{
+    "name": "mcp/php-file-manager",
+    "description": "MCP server written in PHP to manage files on shared hosting",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MCP\\FileManager\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
